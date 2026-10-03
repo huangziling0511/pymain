@@ -1,4 +1,5 @@
 **pymain_1_1说明书**<br>
+---
 1.下载和测试：  
 下载： 
 ```bash
@@ -42,7 +43,7 @@ py main(){line n;
      #^^^^^^^这几个地方不可以有空格  
 }
 ```
-n指的是整个py main()函数占用的行数（包括py main(){line n;这一行和最后的}）  
+n指的是整个py main()函数占用的行数（包括 **py main(){line n;** 这一行和最后的 **}**）  
 py main()里边就写python了<br><br> 
 代码里要有
 ```pymain
@@ -50,7 +51,7 @@ py type(){line n;
      #^^^^^^^这几个地方不可以有空格  
 }  
 ```
-n指的是整个py type()函数占用的行数（包括py main(){line n;这一行和最后的}）  
+n指的是整个py type()函数占用的行数（包括 **py type(){line n;** 这一行和最后的 **}**）  
 py type()里边就写c/c++函数的类型了  
 格式： 
 ```python
