@@ -31,21 +31,19 @@ use py;声明后面必须是换行符
 use py;声明后面不可以有空格
 
 ---
-6.use c;/use cpp;/use c++ ： python加c/c++模式  
-            use py;声明不可以和后面的代码挤在一起  
-            use py;声明后面必须是换行符  
-            use py;声明后面不可以有空格  
-            代码里要有  
+6.use c;/use cpp;/use c++; ： python加c/c++模式  
+use c;/use cpp;/use c++;声明不可以和后面的代码挤在一起  
+use c;/use cpp;/use c++;声明后面必须是换行符  
+use c;/use cpp;/use c++;声明后面不可以有空格  
+代码里要有  
 ```pymain
 py main(){line n;  
      #^^^^^^^这几个地方不可以有空格  
 }
 ```
 n指的是整个py main()函数占用的行数（包括py main(){line n;这一行和最后的}）  
-py main()里边就写python了  
-
----
-代码里要有  
+py main()里边就写python了<br><br> 
+代码里要有
 ```pymain
 py type(){line n;  
      #^^^^^^^这几个地方不可以有空格  
