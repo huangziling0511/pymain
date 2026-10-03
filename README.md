@@ -4,6 +4,9 @@
 git clone https://github.com/huangziling0511/pymain.git
 ```
 测试：直接运行pymain_1_1.py（不加命令行参数）就会输出版本号。
+```bash
+python3 pymain_1_1.py
+```
 ---
 2.编译
 ```bash
