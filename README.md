@@ -26,9 +26,10 @@ use cpp; -------- python加c++模式,和上一行一样
 ---
 5.use py; ： 纯python模式，除了use py;这条声明都是纯python  
 
-             use py;声明不可以和后面的代码挤在一起  
-             use py;声明后面必须是换行符  
-             use py;声明后面不可以有空格
+use py;声明不可以和后面的代码挤在一起  
+use py;声明后面必须是换行符  
+use py;声明后面不可以有空格
+
 ---
 6.use c;/use cpp;/use c++ ： python加c/c++模式  
             use py;声明不可以和后面的代码挤在一起  
