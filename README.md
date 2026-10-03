@@ -1,6 +1,9 @@
 1.下载和测试：  
-下载： https://github.com/huangziling0511/pymain.git
-测试： 直接运行pymain_1_1.py（不加命令行参数）就会输出版本号。
+下载： 
+```bash
+git clone https://github.com/huangziling0511/pymain.git
+```
+测试：直接运行pymain_1_1.py（不加命令行参数）就会输出版本号。
 ---
 2.编译
 ```bash
