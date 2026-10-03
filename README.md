@@ -18,10 +18,11 @@ python3 pymain_1_1.py code.pymain code #把code.pymain编译成文件夹code
 ---
 4.模式： 你可以创建一个.pymain文件，然后你要在文件第一行写use py;/use c++;/use cpp;/use c;来选择模式：  
 
-        use py; --------- 纯python模式  
-        use c; ---------- python加c语言模式  
-        use c++; -------- python加c++模式  
-        use cpp; -------- python加c++模式,和上一行一样```
+use py; --------- 纯python模式  
+use c; ---------- python加c语言模式  
+use c++; -------- python加c++模式  
+use cpp; -------- python加c++模式,和上一行一样
+
 ---
 5.use py; ： 纯python模式，除了use py;这条声明都是纯python  
 
