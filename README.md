@@ -14,14 +14,17 @@ python3 pymain_1_1.py code.pymain code #把code.pymain编译成文件夹code
 ```
 ---
 3.介绍： 这个语言是2026年7月27日(星期一)21:04被发明的，它可以让python调用其他语言的函数更简单。
+
 ---
 4.模式： 你可以创建一个.pymain文件，然后你要在文件第一行写use py;/use c++;/use cpp;/use c;来选择模式：  
+
         use py; --------- 纯python模式  
         use c; ---------- python加c语言模式  
         use c++; -------- python加c++模式  
         use cpp; -------- python加c++模式,和上一行一样```
 ---
 5.use py; ： 纯python模式，除了use py;这条声明都是纯python  
+
              use py;声明不可以和后面的代码挤在一起  
              use py;声明后面必须是换行符  
              use py;声明后面不可以有空格
@@ -38,6 +41,7 @@ py main(){line n;
 ```
 n指的是整个py main()函数占用的行数（包括py main(){line n;这一行和最后的}）  
 py main()里边就写python了  
+
 ---
 代码里要有  
 ```pymain
